@@ -11,11 +11,11 @@ title = "Ryan Shah's Website"
   title = "Software Engineer"
   bio = """Current Software Engineer at [Lexmark International](https://www.lexmark.com/en_us.html)
 
-  3 years experience working on multiple teams in the R&D area of the company, gaining experience in a wide array of software disciplines.
+  3+ years experience in backend development, infastructure automation, and MVC applications.
 
   Graduated from the University of Kentucky in 2018 with a BS in Computer Science and Mathematics with a minor in Physics.
 
-  Interests include automating my work-from-home life and learning new technologies and tools along the way.
+  Interests include automating my work-from-home life, white hat hacking/security, and learning new technologies and tools along the way.
   """
 [params.contacts]
   email = "ryan.shah96@gmail.com"
@@ -26,6 +26,19 @@ title = "Ryan Shah's Website"
 [[params.actions]]
   name = "review my resume"
   url = "https://github.com/ryan-shah/Awesome-CV/raw/master/output/ryan-resume.pdf"
+
+[params.crisp]
+  websiteId = "9b56f3a7-0cc3-44e6-9cb2-f22606253673"
+  # Change the chatbox color theme
+  color = "red"
+  # Reverse the chatbox position
+  reversePosition = false
+  # Hide chatbox on mobile devices
+  hideOnMobile = false
+  # Hide chatbox on support away
+  hideOnAway = false
+  # Hide chatbox on vacation
+  hideVacation = false
 
 ## Footer Configurations
 [params.footer]
