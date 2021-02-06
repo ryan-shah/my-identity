@@ -12,7 +12,7 @@ printf "deploying theme updates"
 
 pwd
 
-cd /themes/awesome-identity/
+cd themes/awesome-identity/
 
 git add .
 
