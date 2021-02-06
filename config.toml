@@ -5,7 +5,7 @@ title = "Awesome Identity for Hugo"
 
 ## Profile Configurations
 [params.profile]
-  portrait = "/images/portrait-default.png"
+  portrait = "/images/portrait.png"
   firstname = "Ryan"
   lastname = "Shah"
   title = "Software Engineer"
