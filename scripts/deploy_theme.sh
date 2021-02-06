@@ -1,15 +1,19 @@
 #!/bin/sh
 
 # If a command fails then the deploy stops
-# set -e
+set -e
 
 msg="rebuilding site $(date)"
 if [ -n "$*" ]; then
         msg="$*"
 fi
 
-sh ./scripts/deploy_site.sh "$msg"
+printf "deploying theme updates"
 
-sh ./scripts/deploy_theme.sh "$msg"
+cd /themes/awesome-identity/
 
-sh ./scripts/deploy_identity.sh "$msg"
+git add .
+
+git commit -m "$msg"
+
+git push origin master
