@@ -10,6 +10,8 @@ fi
 
 printf "deploying theme updates"
 
+pwd
+
 cd /themes/awesome-identity/
 
 git add .
