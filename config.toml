@@ -9,11 +9,13 @@ title = "Awesome Identity for Hugo"
   firstname = "Ryan"
   lastname = "Shah"
   title = "Software Engineer"
-  bio = """John Smith brings over 40 years experience leading, contributing to, and growing engineering organizations in top [**VR**](https://en.wikipedia.org/wiki/Virtual_reality) technology companies.
+  bio = """Current Software Engineer at [Lexmark International](https://www.lexmark.com/en_us.html).
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et lacinia metus. Aliquam venenatis, orci ornare mollis congue, mi arcu lobortis tellus, id pulvinar ex ante eu mauris.
+  3 years experience working on multiple teams in the R&D area of the company, gaining experience in a wide array of software disciplines.
 
-  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+  Graduated from the University of Kentucky in 2018 with a Bachelors of Science in Computer Science and Mathematics with a minor in Pyhics.
+
+  Interested in automating my work-from-home life and learning new technologies and tools along the way.
   """
 [params.contacts]
   email = "ryan.shah96@gmail.com"
@@ -21,7 +23,11 @@ title = "Awesome Identity for Hugo"
   facebook = "ryanshah96"
   linkedin = "ryan-shah"
 
+[[params.actions]]
+  name = "review my resume"
+  url = "https://github.com/ryan-shah/Awesome-CV/raw/master/output/ryan-resume.pdf"
+
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2019-2020 Byungjin Park. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  copyright = "© 2021 Ryan Shah. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true

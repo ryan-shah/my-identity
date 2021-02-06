@@ -27,10 +27,20 @@ git push origin master
 # push theme changes
 cd ../themes/awesome-identity
 
-pwd
-
 printf "deploying theme updates"
+
+git add .
 
 git commit -m "$msg"
 
 git push origin master
+
+cd ../../
+
+printf "deploying local updates"
+
+git add .
+
+git commit -m "$msg"
+
+git push origin main
