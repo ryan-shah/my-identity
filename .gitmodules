@@ -1,0 +1,7 @@
+[submodule "themes/awesome-identity"]
+	path = themes/awesome-identity
+	url = https://github.com/ryan-shah/hugo-awesome-identity
+[submodule "public"]
+	path = public
+	url = git@github.com:ryan-shah/ryan-shah.github.io.git
+	branch = master
