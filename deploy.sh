@@ -27,6 +27,8 @@ git push origin master
 # push theme changes
 cd ../themes/awesome-identity
 
+pwd
+
 printf "deploying theme updates"
 
 git commit -m "$msg"
