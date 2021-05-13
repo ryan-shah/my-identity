@@ -9,7 +9,7 @@ title = "Ryan Shah's Website"
   firstname = "Ryan"
   lastname = "Shah"
   title = "Software Engineer"
-  bio = """Current Software Engineer at [Lexmark International](https://www.lexmark.com/en_us.html)
+  bio = """Current Software Engineer at [Capital One](https://www.capitalone.com/)
 
   3+ years experience in backend development, infastructure automation, and MVC applications.
 
@@ -18,7 +18,7 @@ title = "Ryan Shah's Website"
   Interests include automating my work-from-home life, white hat hacking/security, and learning new technologies and tools along the way.
   """
 [params.contacts]
-  email = "ryan.shah96@gmail.com"
+  email = "ryan@ryan-shah.com"
   github = "ryan-shah"
   facebook = "ryanshah96"
   linkedin = "ryan-shah"
